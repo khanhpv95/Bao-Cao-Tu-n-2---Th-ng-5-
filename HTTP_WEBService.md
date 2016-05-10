@@ -53,7 +53,7 @@ Trong đó:
 Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
 ###c. Tìm hiểu về thuộc tính: `verb` `url` `Status code`
-###c1. verb 
+####c1. verb 
 
 Client gửi request tới server bằng một số các phương thức thường dùng như:
 
@@ -64,7 +64,7 @@ Client gửi request tới server bằng một số các phương thức thườ
       <li>DELETE: được thiết kế để xóa dữ liệu, tài nguyên trên server.</li>
   </ul>
   
-###c2. URL
+####c2. URL
 
 URL là một cấu trúc đơn giản thường bao gồm:
 
@@ -77,7 +77,7 @@ URL là một cấu trúc đơn giản thường bao gồm:
   </ul>
   
   
-###c3. Status code
+####c3. Status code
 
 Status code là thông tin quan trọng server trả về cho client, cho biết kết quả xử lý request của server. Các loại status code thường gặp:
 <ul>
