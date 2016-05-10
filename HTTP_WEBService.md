@@ -84,11 +84,12 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
       
       <li>2xx: Successful: Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:</li>
     
-      -	202 Accepted: request từ client đã được chấp nhận nhưng có thể server không trả về kết quả cho client. Điều này hữu dụng trong trường hợp xử lý bất đồng bộ phía server: server thông báo cho client không phải tiếp tục chờ đợi cho tới khi quá trình xử lý trên server hoàn tất.
+      **202 Accepted:** request từ client đã được chấp nhận nhưng có thể server không trả về kết quả cho client. Điều này hữu dụng trong trường hợp xử lý bất đồng bộ phía server: server thông báo cho client không phải tiếp tục chờ đợi cho tới khi quá trình xử lý trên server hoàn tất.
       
-      -	204 No content: không có phần message body trong response.
       
-      -	 205 Reset content: tương tự như 204, nhưng mã trả về này yêu cầu client reset document view.
+      **204 No content:** không có phần message body trong response.
+      
+      **205 Reset content:** tương tự như 204, nhưng mã trả về này yêu cầu client reset document view.
       
       <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.</li>
       
