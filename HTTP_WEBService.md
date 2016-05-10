@@ -84,9 +84,7 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
       
           <li>Loại status code này được mô tả ở HTTP/1.1 và hoàn toàn mang tính chất tạm thời, client có thể bỏ qua chúng.</li>
       </li>
-      <li>2xx: Successful
-      
-          Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:
+      <li>2xx: Successful :Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:
           
           <ul>
               <li></li>
