@@ -26,3 +26,6 @@ Khi sử dụng tài khoản user để quản trị ta phải sử dụng cú p
 Cũng giống như những dòng server khác như centos việc logout vô cùng đơn giản. 
 Sử dụng cú pháp: `logout`
 
+##3. kiểm tra về network 
+
+
