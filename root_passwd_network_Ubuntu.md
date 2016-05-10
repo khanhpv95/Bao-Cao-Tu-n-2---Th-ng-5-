@@ -27,5 +27,8 @@ Cũng giống như những dòng server khác như centos việc logout vô cùn
 Sử dụng cú pháp: `logout`
 
 ##3. kiểm tra về network 
+Để kiểm tra network, ta sử dụng câu lệnh `ip a` để kiểm tra xem card mạng đã được đặt ip chưa.
+Nếu chưa được đặt thì ta có thể đặt ip tạm thời hoặc đặt ip cho cho card.
+Tham khảo bài viết: https://github.com/khanhpv95/baocao1/blob/master/IPtinhdong.md
 
 
