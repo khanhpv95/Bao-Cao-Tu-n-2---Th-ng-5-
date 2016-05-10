@@ -65,6 +65,7 @@ Client gửi request tới server bằng một số các phương thức thườ
   </ul>
   
 ###c2. URL
+
 URL là một cấu trúc đơn giản thường bao gồm:
 
 <ul>
@@ -74,6 +75,7 @@ URL là một cấu trúc đơn giản thường bao gồm:
       <li>resource path: đường dẫn tới resource trên server.</li>
       <li>query: truy vấn</li>
   </ul>
+  
   
 ###c3. Status code
 
