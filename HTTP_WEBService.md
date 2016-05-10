@@ -34,8 +34,25 @@ Trong đó:
     </ul>
 </li>
 
-<li></li>
+<li>đối với response là Status-Line
+
+<img src="">
+    <ul>
+     <li>HTTP-Version là "HTTP/1.1"</li>
+      <li>Status-Code là mã kết quả trả về</li>
+      <li>Reason-Phrase là mô tả của Status-Code</li>
+    </ul>
+</li>
+
 </ul>
+
+**b. message-header**
+
+<img src="">
+
+Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+
+**Tìm hiểu về thuộc tính *verb* url* *Status code***
 
 
 
