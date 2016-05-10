@@ -18,8 +18,11 @@ Hypertext Transfer Protocol (HTTP) là một giao thức không trạng thái (s
 </ul>
 ##1.3 Định dạng HTTP request và HTTP resonse
 Một HTTP request hoặc response có dạng như sau:
+
 Trong đó:
+
 **a. start-line**
+
 <ul>
 <li>đối với request start-line là Request-Line
 
