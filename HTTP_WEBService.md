@@ -1,11 +1,11 @@
 #Tìm hiểu giao thức HTTP và dịch vụ Web
 ##Mục Lục
 ##[1. Giao thức HTTP.](#http)
-<ul>
-<li>[1.1 Khái niệm](#khainiem)</li>
-<li>[1.2 khái quát về HTTP](#khaiquat)</li>
-<li>[1.3 Định dạng HTTP request và HTTP resonse](#dinhdang)</li>
-</ul>
+
+- [1.1 Khái niệm](#khainiem)
+- [1.2 khái quát về HTTP](#khaiquat)
+- [1.3 Định dạng HTTP request và HTTP resonse](#dinhdang)
+
 ##[2. Dịch vụ web.](#web)
 
 
