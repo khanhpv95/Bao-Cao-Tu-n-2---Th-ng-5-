@@ -49,15 +49,13 @@ Trong đó:
 
 <li>đối với response là Status-Line
 
-
 <img src="http://i.imgur.com/B6HO4ng.png">
 
-
-  <ul>
-     <li>HTTP-Version là "HTTP/1.1"</li>
-      <li>Status-Code là mã kết quả trả về</li>
-      <li>Reason-Phrase là mô tả của Status-Code</li>
-  </ul>
+<ul>
+    <li>HTTP-Version là "HTTP/1.1"</li>
+    <li>Status-Code là mã kết quả trả về</li>
+    <li>Reason-Phrase là mô tả của Status-Code</li>
+</ul>
 </li>
 
 </ul>
