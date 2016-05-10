@@ -15,6 +15,7 @@
 
 <img src="http://i.imgur.com/4M6eNep.png">
 
+
 Tại đây, ta nhập lần lượt password cho user, nhập password cho tài khoản root và xác nhận lại mật khẩu.
 
 <li>Bước 2: logout và đăng nhập bằng tài khoản root để kiểm tra.</li>
