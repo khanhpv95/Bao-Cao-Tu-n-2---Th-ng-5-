@@ -39,6 +39,7 @@ Trong đó:
 <li>đối với request start-line là Request-Line
 
 <img src="http://i.imgur.com/L8NM0wg.png">
+
   <ul>
     <li>Verb là GET, POST, PUT, DELETE, OPTIONS, HEAD hoặc TRACE</li>
     <li>URL là đường dẫn tới địa chỉ yêu cầu</li>
@@ -49,7 +50,9 @@ Trong đó:
 <li>đối với response là Status-Line
 
 <img src="http://i.imgur.com/B6HO4ng.png">
-    <ul>
+
+
+  <ul>
      <li>HTTP-Version là "HTTP/1.1"</li>
       <li>Status-Code là mã kết quả trả về</li>
       <li>Reason-Phrase là mô tả của Status-Code</li>
