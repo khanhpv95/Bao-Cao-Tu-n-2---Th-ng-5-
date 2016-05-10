@@ -19,6 +19,8 @@ Hypertext Transfer Protocol (HTTP) là một giao thức không trạng thái (s
 ##1.3 Định dạng HTTP request và HTTP resonse
 Một HTTP request hoặc response có dạng như sau:
 
+<img src="">
+
 Trong đó:
 
 **a. start-line**
@@ -83,10 +85,23 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
 <ul>
     <li>1xx: Informational Message: Loại status code này được mô tả ở HTTP/1.1 và hoàn toàn mang tính chất tạm thời, client có thể bỏ qua chúng.</li>
       
-    <li>2xx: Successful: Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:</li>
+    <li>2xx: Successful: Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:
+    <ul>
+      <li>202 Accepted: request từ client đã được chấp nhận nhưng có thể server không trả về kết quả cho client. Điều này hữu dụng trong trường hợp xử lý bất đồng bộ phía server: server thông báo cho client không phải tiếp tục chờ đợi cho tới khi quá trình xử lý trên server hoàn tất.</li>
+    </ul>
+    
+    
+    
+    </li>
   
       
-    <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.</li>
+    <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.
+    <ul>
+      <li>301 Moved Permanently: resource đã được chuyển hoàn toàn tới địa chỉ trong trường Location của response.</li>
+    </ul>
+    
+    
+    </li>
       
     <li>4xx: Client Error: Lỗi phát hiện ở client.</li>
       
