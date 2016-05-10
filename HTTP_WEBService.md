@@ -113,7 +113,7 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
     <ul>
     </li>
     
-    <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.</li>
+  <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.</li>
 </ul>      
 
 
