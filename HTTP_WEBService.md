@@ -75,7 +75,7 @@ URL là một cấu trúc đơn giản thường bao gồm:
       <li>query: truy vấn</li>
   </ul>
   
-### c3. Status code
+###c3. Status code
 
 Status code là thông tin quan trọng server trả về cho client, cho biết kết quả xử lý request của server. Các loại status code thường gặp:
 <ul>
