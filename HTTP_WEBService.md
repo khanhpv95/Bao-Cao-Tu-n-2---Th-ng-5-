@@ -52,7 +52,7 @@ Trong đó:
 
 Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-**c. Tìm hiểu về thuộc tính** `verb` `url` `Status code`
+###c. Tìm hiểu về thuộc tính: `verb` `url` `Status code`
 ###c1. verb 
 
 Client gửi request tới server bằng một số các phương thức thường dùng như:
@@ -90,6 +90,8 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
               <li>205 Reset content: tương tự như 204, nhưng mã trả về này yêu cầu client reset document view.</li>
               <li>206 Partial content: server chỉ gửi về một phần dữ liệu phụ thuộc và giá trị range header client gửi lên. Giá trị này được sử dụng bởi các tool hỗ trợ download như wget, IDM để phân mảnh dữ liệu thành nhiều phần nhằm tải về đồng thời hoặc hỗ trợ tiếp tục download khi bị ngắt giữa chừng.</li>
           </ul>
+          
+      <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.</li>
       
       
   </ul>
