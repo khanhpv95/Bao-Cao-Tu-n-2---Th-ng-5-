@@ -113,7 +113,13 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
     <ul>
     </li>
     
-  <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.</li>
+   <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.
+    <ul>
+      <li>501 Not Implemented: server không hỗ trợ chức năng client yêu cầu.</li>
+      <li>503 Service Unavailable: một thành phần xử lý trên server bị lỗi hoặc server bị quá tải.</li>
+    </ul>
+   
+   </li>
 </ul>      
 
 
