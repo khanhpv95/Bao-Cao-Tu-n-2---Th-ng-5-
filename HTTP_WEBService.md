@@ -52,7 +52,55 @@ Trong đó:
 
 Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-**Tìm hiểu về thuộc tính** `verb` `url` `Status code`
+**c. Tìm hiểu về thuộc tính** `verb` `url` `Status code`
+###c1. verb 
+
+Client gửi request tới server bằng một số các phương thức thường dùng như:
+
+<ul>
+     <li>GET: được thiết kế để truy vấn dữ liệu, tài nguyên trên server, với các tham số và giá trị nằm ngay trên URL.</li>
+      <li>POST: được dùng trong các trường hợp tạo ra sự thay đổi về dữ liệu, tài nguyên trên server như upload một file hoặc submit một web form.</li>
+      <li>PUT: được thiết kế để cập nhật dữ liệu, tài nguyên trên server.</li>
+      <li>DELETE: được thiết kế để xóa dữ liệu, tài nguyên trên server.</li>
+  </ul>
+  
+###c2. URL
+URL là một cấu trúc đơn giản thường bao gồm:
+
+<ul>
+     <li>protocol: http hoặc https</li>
+      <li>host: tên miền server</li>
+      <li>port: mặc định là 80</li>
+      <li>resource path: đường dẫn tới resource trên server.</li>
+      <li>query: truy vấn</li>
+  </ul>
+  
+### c3. Status code
+
+Status code là thông tin quan trọng server trả về cho client, cho biết kết quả xử lý request của server. Các loại status code thường gặp:
+
+<ul>
+      <li>1xx: Informational Messages
+      
+          <li>Loại status code này được mô tả ở HTTP/1.1 và hoàn toàn mang tính chất tạm thời, client có thể bỏ qua chúng.</li>
+      </li>
+      <li>2xx: Successful
+      
+          Server trả về status dạng này khi đã xử lý thành công request của client. Đối với GET request, dữ liệu trả về nằm trong message body. Phổ biến nhất là mã 200 OK. Ngoài ra còn có:
+          
+          <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+      
+      
+      </li>
+      <li>3xx: Redirection</li>
+      <li>4xx: Client Error</li>
+      <li>5xx: Server Error</li>
+  </ul>
+
 
 
 
