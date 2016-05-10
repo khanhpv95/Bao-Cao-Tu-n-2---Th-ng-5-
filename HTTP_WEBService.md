@@ -62,7 +62,7 @@ Client gửi request tới server bằng một số các phương thức thườ
       <li>POST: được dùng trong các trường hợp tạo ra sự thay đổi về dữ liệu, tài nguyên trên server như upload một file hoặc submit một web form.</li>
       <li>PUT: được thiết kế để cập nhật dữ liệu, tài nguyên trên server.</li>
       <li>DELETE: được thiết kế để xóa dữ liệu, tài nguyên trên server.</li>
-  </ul>
+</ul>
   
 **c2. URL**
 
@@ -74,7 +74,7 @@ URL là một cấu trúc đơn giản thường bao gồm:
       <li>port: mặc định là 80</li>
       <li>resource path: đường dẫn tới resource trên server.</li>
       <li>query: truy vấn</li>
-  </ul>
+</ul>
   
   
 **c3. Status code**
