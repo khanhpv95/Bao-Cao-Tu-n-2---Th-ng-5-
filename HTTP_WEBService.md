@@ -19,7 +19,7 @@ Hypertext Transfer Protocol (HTTP) là một giao thức không trạng thái (s
 ##1.3 Định dạng HTTP request và HTTP resonse
 Một HTTP request hoặc response có dạng như sau:
 
-<img src="">
+<img src="http://i.imgur.com/yJVjQro.png">
 
 Trong đó:
 
@@ -28,7 +28,7 @@ Trong đó:
 <ul>
 <li>đối với request start-line là Request-Line
 
-<img src="">
+<img src="http://i.imgur.com/L8NM0wg.png">
   <ul>
     <li>Verb là GET, POST, PUT, DELETE, OPTIONS, HEAD hoặc TRACE</li>
     <li>URL là đường dẫn tới địa chỉ yêu cầu</li>
@@ -38,7 +38,7 @@ Trong đó:
 
 <li>đối với response là Status-Line
 
-<img src="">
+<img src="http://i.imgur.com/B6HO4ng.png">
     <ul>
      <li>HTTP-Version là "HTTP/1.1"</li>
       <li>Status-Code là mã kết quả trả về</li>
@@ -50,7 +50,7 @@ Trong đó:
 
 **b. message-header**
 
-<img src="">
+<img src="http://i.imgur.com/PC5YCLu.png">
 
 Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
