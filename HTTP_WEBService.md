@@ -86,6 +86,11 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
       
       <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.</li>
       
+      <li>4xx: Client Error: Lỗi phát hiện ở client.</li>
+      
+      <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.</li>
+            
+      
       
   </ul>
 
