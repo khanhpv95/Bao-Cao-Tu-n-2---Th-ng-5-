@@ -92,7 +92,7 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
               <li>205 Reset content: tương tự như 204, nhưng mã trả về này yêu cầu client reset document view.</li>
               <li>206 Partial content: server chỉ gửi về một phần dữ liệu phụ thuộc và giá trị range header client gửi lên. Giá trị này được sử dụng bởi các tool hỗ trợ download như wget, IDM để phân mảnh dữ liệu thành nhiều phần nhằm tải về đồng thời hoặc hỗ trợ tiếp tục download khi bị ngắt giữa chừng.</li>
           </ul>
-      
+      </li>
       <li>3xx: Redirection: Server thông báo cho client phải thực hiện thêm action để hoàn thành request.
             <ul>
                 <li>301 Moved Permanently: resource đã được chuyển hoàn toàn tới địa chỉ trong trường Location của response.</li>
@@ -100,6 +100,7 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
                 <li>304 Not Modified: resource không thay đổi từ lần cuối cùng client gửi request, và client nên sử dụng dữ liệu đã lưu trong bộ nhớ cache. Điều này được thực hiện bằng cách khi gửi request, client gửi đi trường ETag là định danh của phần dữ liệu đã request lần trước, server so sánh với trường ETag ứng với dữ liệu của nó để kiểu tra sự thay đổi.</li>
             </ul>
       </li>
+      
       <li>4xx: Client Error: Lỗi phát hiện ở client
       
           <ul>
