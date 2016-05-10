@@ -3,7 +3,7 @@
 ##[1. Đặt password cho root](#passwd)
 ##[2. Login, logout](#login)
 ##[3. Kiểm tra về network](#network)
-##[4. Tìm hiểu về địa chỉ 127.0.0.1](#loopback)
+##[4. Tìm hiểu về địa chỉ 127.0.1.1](#loopback)
 
 ##Nội Dung
 
@@ -12,7 +12,14 @@
 ##1. Đặt password cho root.
 <ul>
 <li>Bước 1: Sử dụng câu lệnh `sudo passwd root` để đặt password cho root.</li>
+
+<img src="http://i.imgur.com/4M6eNep.png">
+
+Tại đây, ta nhập lần lượt password cho user, nhập password cho tài khoản root và xác nhận lại mật khẩu.
+
 <li>Bước 2: logout và đăng nhập bằng tài khoản root để kiểm tra.</li>
+
+<img src="http://i.imgur.com/86gkW39.png">
 </ul>
 
 <a name="login"></a>
