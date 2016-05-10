@@ -11,7 +11,8 @@
 
 ##1. Đặt password cho root.
 <ul>
-<li>Bước 1: Sử dụng câu lệnh `sudo passwd root` để đặt password cho root.</li>
+<li>Bước 1: Sử dụng câu lệnh  `sudo passwd root`  để đặt password cho root.</li>
+Tại đây, ta nhập lần lượt password cho user, nhập password cho tài khoản root và xác nhận lại mật khẩu.
 
 <img src="http://i.imgur.com/4M6eNep.png">
 
