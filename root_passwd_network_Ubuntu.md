@@ -10,20 +10,18 @@
 <a name="passwd"></a>
 
 ##1. Đặt password cho root.
-<ul>
-<li>Bước 1: Để đặt password cho root, ta sử dụng câu lệnh:</li>
+
+**Bước 1:** Để đặt password cho root, ta sử dụng câu lệnh:
 `sudo passwd root`
 Tại đây, ta nhập lần lượt password cho user, nhập password cho tài khoản root và xác nhận lại mật khẩu.
 
 <img src="http://i.imgur.com/4M6eNep.png">
 
 
-Tại đây, ta nhập lần lượt password cho user, nhập password cho tài khoản root và xác nhận lại mật khẩu.
-
-<li>Bước 2: logout và đăng nhập bằng tài khoản root để kiểm tra.</li>
+**Bước 2:** logout và đăng nhập bằng tài khoản root để kiểm tra.</li>
 
 <img src="http://i.imgur.com/86gkW39.png">
-</ul>
+
 
 <a name="login"></a>
 ##2. Login và logout trong Ubuntu.
