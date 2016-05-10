@@ -111,8 +111,6 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
       <li>404 Not Found: không tìm thấy resource.</li>
       <li>405 Method Not Allowed: phương thức (HTTP verb) không được server hỗ trợ.</li>
     <ul>
-    
-    
     </li>
       
     <li>5xx: Server Error: Có lỗi xảy ra trong quá trình xử lý của server. Mã 500 Internal Server Error là phổ biến nhất.
