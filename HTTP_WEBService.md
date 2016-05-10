@@ -17,6 +17,22 @@ Hypertext Transfer Protocol (HTTP) là một giao thức không trạng thái (s
 <li>HTTP request bao gồm hai thành phần quan trọng là URL và Verb (phương thức), được gửi từ client. Ở phía ngược lại, server trả về HTTP response trong đó chứa Status code và Message body.</li>
 </ul>
 ##1.3 Định dạng HTTP request và HTTP resonse
+Một HTTP request hoặc response có dạng như sau:
+Trong đó:
+**a. start-line**
+<ul>
+<li>đối với request start-line là Request-Line
+
+<img src="">
+  <ul>
+    <li>Verb là GET, POST, PUT, DELETE, OPTIONS, HEAD hoặc TRACE</li>
+    <li>URL là đường dẫn tới địa chỉ yêu cầu</li>
+    <li>HTTP-Version là "HTTP/1.1"</li>
+    </ul>
+</li>
+
+<li></li>
+</ul>
 
 
 
