@@ -52,7 +52,7 @@ Trong đó:
 
 Tham khảo danh sách các trường của meassage header tại: [wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-**Tìm hiểu về thuộc tính *verb* url* *Status code***
+**Tìm hiểu về thuộc tính** `verb` `url` `Status code`
 
 
 
