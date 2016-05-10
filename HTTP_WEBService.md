@@ -2,9 +2,9 @@
 ##Mục Lục
 ##[1. Giao thức HTTP.](#http)
 <ul>
-<li>1.1 Khái niệm</li>(#khainiem)
-<li>1.2 khái quát về HTTP</li>(#khaiquat)
-<li>1.3 Định dạng HTTP request và HTTP resonse</li>(#dinhdang)
+<li>[1.1 Khái niệm](#khainiem)</li>
+<li>[1.2 khái quát về HTTP](#khaiquat)</li>
+<li>[1.3 Định dạng HTTP request và HTTP resonse](#dinhdang)</li>
 </ul>
 ##[2. Dịch vụ web.](#web)
 
