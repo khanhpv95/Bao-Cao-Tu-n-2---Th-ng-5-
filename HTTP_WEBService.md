@@ -141,7 +141,7 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
 ###2.1 Định nghĩa
 - Khái niệm:
 
-là một hệ thống phần mềm được thiết kế để hỗ trợ khả năng tương tác giữa các ứng dụng trên các máy tính khác nhau thông qua mạng Internet, giao diện chung và sự gắn kết của nó được mô tả bằng XML.Tìm hiểu thêm về XML theo link: [XML](http://freetuts.net/xml-la-gi-cu-phap-can-ban-cua-xml-513.html). Web service là tài nguyên phần mềm có thể xác định bằng địa chỉ URL, thực hiện các chức năng và đưa ra các thông tin người dùng yêu cầu. 
+Là một hệ thống phần mềm được thiết kế để hỗ trợ khả năng tương tác giữa các ứng dụng trên các máy tính khác nhau thông qua mạng Internet, giao diện chung và sự gắn kết của nó được mô tả bằng XML.Tìm hiểu thêm về XML theo link: [XML](http://freetuts.net/xml-la-gi-cu-phap-can-ban-cua-xml-513.html). Web service là tài nguyên phần mềm có thể xác định bằng địa chỉ URL, thực hiện các chức năng và đưa ra các thông tin người dùng yêu cầu. 
 
 - Giao thức sử dụng: HTTP hoặc HTTPs
 - Port sử dụng: 80 (Dùng cho giao thức http), 443 (dùng cho giao thức https)
@@ -161,13 +161,15 @@ là một hệ thống phần mềm được thiết kế để hỗ trợ khả
 
 ###2.2 Công dụng
 
-công dụng chính của website là cung cấp thông tin cho người dùng. website có thể đáp ứng hầu như toàn bộ nhu cầu của con người  như: giải trí, tìm kiếm thông tin, mua hàng ....
+Công dụng chính của website là cung cấp thông tin cho người dùng. website có thể đáp ứng hầu như toàn bộ nhu cầu của con người  như: giải trí, tìm kiếm thông tin, mua hàng ....
 
 ###2.3 Triển khai
 
-có thể triển khai đồng thời với dịch vụ DNS. DNS giúp người dùng không cần nhớ địa chỉ IP của website mà vẫn có thể truy cập được đến website 
+Có thể triển khai đồng thời với dịch vụ DNS. DNS giúp người dùng không cần nhớ địa chỉ IP của website mà vẫn có thể truy cập được đến website 
 
 ###2.4 Cài đặt
+
+
 
 
 
