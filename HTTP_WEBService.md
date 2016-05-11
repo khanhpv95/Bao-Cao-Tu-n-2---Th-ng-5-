@@ -155,15 +155,21 @@ là một hệ thống phần mềm được thiết kế để hỗ trợ khả
 
 - Cấu tạo:
 <ul>
-<li></li>
-<li></li>
+<li>Web server: lưu cơ sở dữ liệu, phần mềm ứng dụng web </li>
+<li>Web Client: là các máy người dùng, người dùng truy cập vào web server thông qua việc nhập url vào trình duyện web như chrome, filefox ... </li>
 </ul>
 
-
-
 ###2.2 Công dụng
+
+công dụng chính của website là cung cấp thông tin cho người dùng. website có thể đáp ứng hầu như toàn bộ nhu cầu của con người  như: giải trí, tìm kiếm thông tin, mua hàng ....
+
 ###2.3 Triển khai
+
+có thể triển khai đồng thời với dịch vụ DNS. DNS giúp người dùng không cần nhớ địa chỉ IP của website mà vẫn có thể truy cập được đến website 
+
 ###2.4 Cài đặt
+
+
 
 
 
