@@ -8,6 +8,10 @@
 
 ##[2. Dịch vụ web.](#web)
 
+- [2.1 Định nghĩa](#dinhnghia)
+- [2.2 Công dụng](#congdung)
+- [2.3 Triển khai](#trienkhai)
+- [2.4 Cài đặt](#caidat)
 
 <a name="http"></a>
 ##Nội dung
@@ -138,6 +142,8 @@ Status code là thông tin quan trọng server trả về cho client, cho biết
 
 ##2. Dịch vụ web 
 
+<a name="dinhnghia"></a>
+
 ###2.1 Định nghĩa
 a, Khái niệm:
 
@@ -163,15 +169,32 @@ e, Cấu tạo:
 <li>Web Client: là các máy người dùng, người dùng truy cập vào web server thông qua việc nhập url vào trình duyện web như chrome, filefox ... </li>
 </ul>
 
+
+<a name="congdung"></a>
+
 ###2.2 Công dụng
 
 Công dụng chính của website là cung cấp thông tin cho người dùng. website có thể đáp ứng hầu như toàn bộ nhu cầu của con người  như: giải trí, tìm kiếm thông tin, mua hàng ....
+
+<a name="trienkhai> </a>
+
 
 ###2.3 Triển khai
 
 Có thể triển khai đồng thời với dịch vụ DNS. DNS giúp người dùng không cần nhớ địa chỉ IP của website mà vẫn có thể truy cập được đến website 
 
+<a name="caidat"></a>
+
 ###2.4 Cài đặt
+
+Có 2 cách cài đặt dịch vụ web là cài đặt web bằng APACHE hoặc NGNIX. 
+
+Hướng dẫn cài đặt tại: [Cài đặt](https://drive.google.com/drive/folders/0B48XCZnnqa_iSmlyRm41ZkhRcFk)
+
+
+##3. Tổng kết
+
+Bài viết cung cấp thông tin về giao thức HTTP và Dịch vụ web. Cảm ơn đã theo dõi.
 
 
 
