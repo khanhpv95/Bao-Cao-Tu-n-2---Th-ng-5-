@@ -98,6 +98,7 @@ Ví dụ: `@ IN A 200.0.0.24`
 ##Tổng kết
 
 Bài  viết đưa ra những thông tin về DNS. 
+
 Cảm ơn đã theo dõi bài viết. Mọi ý kiến đóng góp xin gửi về địa chỉ email: khanhhh95@gmail.com.
 
 
