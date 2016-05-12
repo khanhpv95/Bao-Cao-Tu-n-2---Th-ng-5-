@@ -144,8 +144,11 @@ a, Khái niệm:
 Là một hệ thống phần mềm được thiết kế để hỗ trợ khả năng tương tác giữa các ứng dụng trên các máy tính khác nhau thông qua mạng Internet, giao diện chung và sự gắn kết của nó được mô tả bằng XML.Tìm hiểu thêm về XML theo link: [XML](http://freetuts.net/xml-la-gi-cu-phap-can-ban-cua-xml-513.html). Web service là tài nguyên phần mềm có thể xác định bằng địa chỉ URL, thực hiện các chức năng và đưa ra các thông tin người dùng yêu cầu. 
 
 b, Giao thức sử dụng: HTTP hoặc HTTPs
+
 c, Port sử dụng: 80 (Dùng cho giao thức http), 443 (dùng cho giao thức https)
+
 d, Đặc điểm: 
+
 <ul>
 <li>Cho phép client và server tương tác ngay cả trong môi trường khác nhau. (Ví dụ server chạy linux, client chạy windows).</li>
 <li>Phần lớn được xây dựng dựa trên mã nguồn mở </li>
@@ -153,7 +156,8 @@ d, Đặc điểm:
 <li> Một Web service bao gồm có nhiều mô-đun và có thể công bố lên mạng Internet.</li>
 </ul>
 
-- Cấu tạo:
+e, Cấu tạo:
+
 <ul>
 <li>Web server: lưu cơ sở dữ liệu, phần mềm ứng dụng web </li>
 <li>Web Client: là các máy người dùng, người dùng truy cập vào web server thông qua việc nhập url vào trình duyện web như chrome, filefox ... </li>
